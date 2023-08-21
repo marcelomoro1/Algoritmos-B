@@ -1,0 +1,29 @@
+Menu{
+1 Entrar no estacionamento (N pode 2 placas iguais no mesmo dia)
+2 listar carros (Mostrar placa, data e hora de entrada)
+3 Sair do estacionamento (Remover um veiculo e reorg o vetor)
+4 Sair
+}
+
+Struct{
+String placa[7](usuario deve digitar em maiusculo)
+String data[10](dd/mm/aaa) (usuario deve digitar corretamente)
+String hora[5](hh:mm) (usuario deve digitar corretamente)
+}
+
+##DESAFIO DA GLICOSE--------------------------------------------
+
+Struct{
+String data
+String Hora
+int valor_medicao
+}
+
+Menu{
+1 - Cadastrar medicao(medida(int),hora e data)
+2 - Listar todas medicoes ja realizadas (armazenar em um vetor)
+3 - Calcular e mostrar a media e mediana das medicoes
+4 - Sair
+}
+
+OBS: Validar a medida da glicemia (10 a 600, falar qual o risco em tal medida)
